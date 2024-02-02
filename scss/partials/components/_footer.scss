@@ -1,0 +1,123 @@
+/* FOOTER */
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    text-align: center;
+    padding: 20px;
+    
+  
+    .ulnav {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      gap: 10px;
+    }
+  
+    .logoinstfooter {
+      width: 40px;
+      height: 40px;
+      align-items: end;
+    }
+  }
+  
+  /* CONTACT US */
+  .content {
+    padding: 20px;
+    text-align: center;
+    font-weight: 500;
+    align-items: center;
+    background-color: #EDE9E4;
+  
+    .contactinfo {
+      text-align: start;
+      padding: 10px;
+      margin: 40px;
+    }
+  
+    .contactform {
+      text-align: center;
+      padding: 20px 10px;
+    }
+  }
+  
+  /* PHONE VERSION */
+  @media screen and (max-width: 768px) {
+    .navheader {
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.5fr 1fr 0.3fr;
+      grid-template-areas:
+        "primerlogo"
+        "ul-left"
+        "ul-right";
+    }
+  
+    .primerlogo {
+      display: flex;
+      align-items: flex-start;
+    }
+  
+    .ul-right {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-evenly;
+    }
+  
+    .center-ul {
+      display: list-item;
+      text-decoration: none;
+      text-align: left;
+      padding: 0px 20px;
+      
+    }
+  
+    .ul-benefits {
+      display: list-item;
+      text-align: center;
+      text-decoration: none;
+    }
+  
+    h1 {
+      font-size: 25px;
+      padding: 5px;
+      color: grey;
+    }
+  
+    p {
+      font-size: small;
+    }
+  
+    .imgcontainer {
+      -grid-template-rows: auto auto auto;
+    }
+  
+    .productsimg img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  
+    .h1tittle {
+      grid-area: h1tittle;
+    }
+  
+    .productsimg {
+      grid-area: productsimg;
+    }
+  
+    .parrafo {
+      text-align: justify;
+      align-items: normal;
+      justify-content: center;
+      padding: 8px;
+      grid-area: parrafo;
+      border-radius: 2.5px;
+      border-color: grey;
+      border-style: dotted;
+      margin: 20px 10px 10px 10px;
+    }
+  
+  }
+  

@@ -6,6 +6,10 @@
     <title> Shop Cleansers </title>
     <!--CSS-->
     <link rel="stylesheet" href="styles/styles.css">
+
+    <!--AOS CSS-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     
@@ -69,13 +73,13 @@
 <!--INICIA MAIN-->
 <main>
     <div class="imgcontainer">
-          <div class="h1tittle">
+          <div class="h1tittle" data-aos="fade-right" data-aos-duration="2000">
             <h1>
                 Sunscreen: Your BestFriend!
            </h1> 
           </div>
          
-          <div class="productsimg">
+          <div class="productsimg" data-aos="flip-left" data-aos-duration="2000">
                <a href=""><img src="assets/sunscreens-portada.png" alt="girl in the beach"></a>
            </div>
     
@@ -87,16 +91,16 @@
     </div>
 
    <section>
-    <div class="bestsellers">
+    <div class="bestsellers" data-aos="fade-up"data-aos-duration="1000">
         <h2>Shop Now
         </h2>
     </div>
-    <div class="viewall">
+    <div class="viewall" data-aos="fade-up"data-aos-duration="1000">
         <a href="">View All</a>
     </div>
  </section>
   <hr>
- <section class="products-container">
+ <section class="products-container" data-aos="fade-right">
     <div class="product">
         <h4>Biore</h4>
         <img src="assets/products/sunscreen/suns_1.png" alt="Watery Essence SPF img">
@@ -104,63 +108,63 @@
         <h5>€15.75</h5>
        </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-right">
     <h4>La Roche-Posay</h4>
     <img src="assets/products/sunscreen/suns_2.png" alt="Anthelios Melt-in Milk Sunscreen SPF 60 img">
     <h4><a href="">Anthelios Melt-in Milk Sunscreen SPF 60</a></h4>
     <h5>€14.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-right">
     <h4>Dear, Klairs</h4>
     <img src="assets/products/sunscreen/suns_3.png" alt="Soft Airy UV Essence SPF 50+ img">
     <h4><a href="">Soft Airy UV Essence SPF 50+ PA++++</a></h4>
     <h5>€17.75</h5>
     </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-right">
     <h4>Cosrx</h4>
     <img src="assets/products/sunscreen/suns_4.png" alt="Aloe Soothing Sun Cream SPF50 img">
    <h4> <a href="">Aloe Soothing Sun Cream SPF50 PA+++</a></h4>
     <h5>€12.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-right">
     <h4>Innisfree</h4>
     <img src="assets/products/sunscreen/suns_5.png" alt="Daily UV Defense Sunscreen SPF 36 img">
     <h4><a href="">Daily UV Defense Sunscreen SPF 36 PA+++</a></h4>
     <h5>€14.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>Missha</h4>
     <img src="assets/products/sunscreen/suns_6.png" alt="All Around Safe Block Essence Sun img">
     <h4><a href="">All Around Safe Block Essence Sun SPF 45 PA+++</a></h4>
     <h5>€11.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>Neogen</h4>
     <img src="assets/products/sunscreen/suns_7.png" alt="Dermalogy Day-Light Protection img">
     <h4><a href="">Dermalogy Day-Light Protection Sun Screen SPF 50 PA+++</a></h4>
     <h5>€13.75</h5>
     </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>A'PIEU</h4>
     <img src="assets/products/sunscreen/suns_8.png" alt="Pure Block Natural Sun Cream img">
    <h4> <a href="">Pure Block Natural Sun Cream SPF 45 PA+++</a></h4>
     <h5>€11.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>Etude House</h4>
     <img src="assets/products/sunscreen/suns_9.png" alt="Sunprise Mild Airy img">
    <h4> <a href="">Sunprise Mild Airy Finish Sun Milk SPF 50+ PA+++</a></h4>
     <h5>€15.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>Neutrogena</h4>
     <img src="assets/products/sunscreen/suns_10.png" alt="Hydro Boost Water Gel Lotion SPF 30/50 img">
    <h4> <a href="">Hydro Boost Water Gel Lotion SPF 30/50</a></h4>
@@ -211,6 +215,12 @@
 </footer>
 
 <!--FINALIZA FOOTER -->
+
+    <!--AOS JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 </html>

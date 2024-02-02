@@ -6,6 +6,10 @@
     <title> Shop Cleansers </title>
     <!--CSS-->
     <link rel="stylesheet" href="styles/styles.css">
+
+    <!--AOS CSS-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     
@@ -69,13 +73,13 @@
 <!--INICIA MAIN-->
 <main>
     <div class="imgcontainer">
-          <div class="h1tittle">
+          <div class="h1tittle" data-aos="fade-right" data-aos-duration="2000">
             <h1>
                 I don't even know what a toner is, I've never heard of it!
            </h1> 
           </div>
          
-          <div class="productsimg">
+          <div class="productsimg" data-aos="flip-left" data-aos-duration="2000">
                <a href=""><img src="assets/toners-portada.png" alt="toner img"></a>
            </div>
     
@@ -87,16 +91,16 @@
     </div>
 
    <section>
-    <div class="bestsellers">
+    <div class="bestsellers" data-aos="fade-up"data-aos-duration="1000">
         <h2>Shop Now
         </h2>
     </div>
-    <div class="viewall">
+    <div class="viewall" data-aos="fade-up"data-aos-duration="1000">
         <a href="">View All</a>
     </div>
  </section>
   <hr>
- <section class="products-container">
+ <section class="products-container" data-aos="fade-right">
     <div class="product">
     <h4>Dear, Klairs</h4>
     <img src="assets/products/toners/toner_1.png" alt="Supple Preparation Unscented Toner img">
@@ -104,63 +108,63 @@
     <h5>€12.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-right">
     <h4>Son & Park</h4>
     <img src="assets/products/toners/toner_2.png" alt="Beauty Water img">
     <h4><a href="">Beauty Water</a></h4>
     <h5>€14.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-right">
     <h4>Pyunkang Yul</h4>
     <img src="assets/products/toners/toner_3.png" alt="Essence Toner img">
     <h4><a href="">Essence Toner</a></h4>
     <h5>€17.75</h5>
     </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-right">
     <h4>Cosrx</h4>
     <img src="assets/products/toners/toner_4.png" alt="AHA/BHA Clarifying Treatment Toner img">
    <h4> <a href="">AHA/BHA Clarifying Treatment Toner</a></h4>
     <h5>€12.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-right">
     <h4>Etude House</h4>
     <img src="assets/products/toners/toner_5.png" alt=" SoonJung pH 5.5 Relief Toner img">
     <h4><a href="">SoonJung pH 5.5 Relief Toner</a></h4>
     <h5>€14.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>Missha</h4>
     <img src="assets/products/toners/toner_6.png" alt="Time Revolution Clear Toner img">
     <h4><a href="">Time Revolution Clear Toner</a></h4>
     <h5>€11.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>Innisfree</h4>
     <img src="assets/products/toners/toner_7.png" alt="Green Tea Balancing Skin img">
     <h4><a href="">Green Tea Balancing Skinr</a></h4>
     <h5>€13.75</h5>
     </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>Laneige</h4>
     <img src="assets/products/toners/toner_8.png" alt="Cream Skin Refiner img">
    <h4> <a href="">Cream Skin Refiner</a></h4>
     <h5>€11.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>Kiehl's</h4>
     <img src="assets/products/toners/toner_9.png" alt="Calendula Herbal Extract toner img">
    <h4> <a href="">Calendula Herbal Extract Alcohol-Free Toner</a></h4>
     <h5>€15.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>Dear, Klairs</h4>
     <img src="assets/products/toners/toner_10.png" alt="Supple Preparation Toner Foam">
    <h4> <a href="">Supple Preparation Toner</a></h4>
@@ -211,6 +215,12 @@
 </footer>
 
 <!--FINALIZA FOOTER -->
+
+    <!--AOS JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 </html>

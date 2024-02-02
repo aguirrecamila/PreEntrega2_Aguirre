@@ -1,0 +1,259 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Brawler&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Brawler", serif;
+  background-color: #FAF6F0;
+  text-align: center;
+}
+body h1 {
+  font-size: 35px;
+  color: #B0A695;
+}
+body h2 {
+  font-size: 25px;
+}
+body h3 {
+  font-size: 18px;
+  color: #776B5D;
+}
+body a {
+  text-decoration: underline;
+  color: #776B5D;
+}
+body a:hover {
+  color: #F3EEEA;
+  background-color: #B0A695;
+}
+body hr {
+  border: 2px solid #776B5D;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* HEADER */
+nav.navheader {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 0.3fr;
+  grid-template-areas: "primerlogo" "ul-left" "ul-right";
+}
+nav.navheader .primerlogo {
+  display: flex;
+  align-items: flex-start;
+}
+nav.navheader .ul-left {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  list-style: none;
+  align-items: flex-start;
+  width: 250px;
+  padding: 0.5px 20px;
+  grid-area: ul-left;
+}
+nav.navheader .ul-left .list-item {
+  margin: 0;
+}
+nav.navheader .ul-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 12px;
+  list-style: none;
+  padding: 10px 5px;
+  grid-area: ul-right;
+}
+nav.navheader .primerlogo {
+  display: flex;
+  align-items: flex-start;
+  padding: 0.5px 5px;
+  border: none;
+  grid-area: primerlogo;
+}
+
+/* MAIN */
+main section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main section #carouselExampleIndicators {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main section #carouselExampleIndicators .carousel-indicators {
+  display: flex;
+}
+main section #carouselExampleIndicators .carousel-inner {
+  display: flex;
+}
+main section #carouselExampleIndicators .carousel-inner .carousel-item {
+  display: block;
+}
+main section #carouselExampleIndicators .carousel-control-prev,
+main section #carouselExampleIndicators .carousel-control-next {
+  display: flex;
+  align-items: center;
+}
+main ul.ul-benefits {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  list-style: none;
+  gap: 24px;
+}
+main ul.ul-benefits .list-item-benefits h3 {
+  width: 300px;
+  border: 3px solid #776B5D;
+  border-radius: 5px;
+  padding: 15px 3px;
+  margin: 16px;
+  text-align: center;
+}
+main hr {
+  margin: 2px;
+}
+main section.products-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+main section.products-container .product {
+  width: 200px;
+  border: 1px solid #B0A695;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px;
+}
+main section.products-container .product img {
+  width: 100%;
+}
+main section.products-container .product h4, main section.products-container .product h5 {
+  text-align: center;
+}
+main form {
+  display: inline-block;
+  text-align: center;
+  padding: 20px 90px;
+  border: 2px solid #B0A695;
+  border-radius: 8px;
+  margin: 20px;
+  background-color: #EBE3D5;
+}
+main form label, main form input, main form select, main form input[type=button] {
+  display: inline;
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* FOOTER */
+footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  gap: 10px;
+  text-align: center;
+  padding: 20px;
+}
+footer .ulnav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 10px;
+}
+footer .logoinstfooter {
+  width: 40px;
+  height: 40px;
+  align-items: end;
+}
+
+/* CONTACT US */
+.content {
+  padding: 20px;
+  text-align: center;
+  font-weight: 500;
+  align-items: center;
+  background-color: #EDE9E4;
+}
+.content .contactinfo {
+  text-align: start;
+  padding: 10px;
+  margin: 40px;
+}
+.content .contactform {
+  text-align: center;
+  padding: 20px 10px;
+}
+
+/* PHONE VERSION */
+@media screen and (max-width: 768px) {
+  .navheader {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 0.3fr;
+    grid-template-areas: "primerlogo" "ul-left" "ul-right";
+  }
+  .primerlogo {
+    display: flex;
+    align-items: flex-start;
+  }
+  .ul-right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+  .center-ul {
+    display: list-item;
+    text-decoration: none;
+    text-align: left;
+    padding: 0px 20px;
+  }
+  .ul-benefits {
+    display: list-item;
+    text-align: center;
+    text-decoration: none;
+  }
+  h1 {
+    font-size: 25px;
+    padding: 5px;
+    color: grey;
+  }
+  p {
+    font-size: small;
+  }
+  .imgcontainer {
+    -grid-template-rows: auto auto auto;
+  }
+  .productsimg img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .h1tittle {
+    grid-area: h1tittle;
+  }
+  .productsimg {
+    grid-area: productsimg;
+  }
+  .parrafo {
+    text-align: justify;
+    align-items: normal;
+    justify-content: center;
+    padding: 8px;
+    grid-area: parrafo;
+    border-radius: 2.5px;
+    border-color: grey;
+    border-style: dotted;
+    margin: 20px 10px 10px 10px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

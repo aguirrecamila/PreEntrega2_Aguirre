@@ -6,6 +6,10 @@
     <title> Shop Cleansers </title>
     <!--CSS-->
     <link rel="stylesheet" href="styles/styles.css">
+
+    <!--AOS CSS-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     
@@ -69,13 +73,13 @@
 <!--INICIA MAIN-->
 <main>
     <div class="imgcontainer">
-          <div class="h1tittle">
+          <div class="h1tittle" data-aos="fade-right" data-aos-duration="2000">
             <h1>
                 Refresh your skin!
            </h1> 
           </div>
          
-          <div class="productsimg">
+          <div class="productsimg" data-aos="flip-left" data-aos-duration="2000">
                <a href=""><img src="assets/masks-portada.png" alt="maskimg"></a>
            </div>
     
@@ -87,16 +91,16 @@
     </div>
 
    <section>
-    <div class="bestsellers">
+    <div class="bestsellers" data-aos="fade-up"data-aos-duration="1000">
         <h2>Shop Now
         </h2>
     </div>
-    <div class="viewall">
+    <div class="viewall" data-aos="fade-up"data-aos-duration="1000">
         <a href="">View All</a>
     </div>
  </section>
   <hr>
- <section class="products-container">
+ <section class="products-container" data-aos="fade-right">
     <div class="product">
     <h4>Laneige</h4>
     <img src="assets/products/masks/mask_1.png" alt="Water Sleeping Mask img">
@@ -104,63 +108,63 @@
     <h5>€12.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-right">
     <h4>Innisfree</h4>
     <img src="assets/products/masks/mask_2.png" alt="Super Volcanic Pore Clay Mask img">
     <h4><a href="">Super Volcanic Pore Clay Mask</a></h4>
     <h5>€14.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-right">
     <h4>Dr. Jart+</h4>
     <img src="assets/products/masks/mask_3.png" alt="Dermask Water Jet Vital Hydra Solution img">
     <h4><a href="">Dermask Water Jet Vital Hydra Solution</a></h4>
     <h5>€3.75</h5>
     </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-right">
     <h4>Dear, Klairs</h4>
     <img src="assets/products/masks/mask_4.png" alt="Freshly Juiced Vitamin E Mask img">
    <h4> <a href="">Freshly Juiced Vitamin E Mask</a></h4>
     <h5>€12.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-right">
     <h4>Mediheal</h4>
     <img src="assets/products/masks/mask_5.png" alt="N.M.F. Aquaring Ampoule Mask img">
     <h4><a href="">N.M.F. Aquaring Ampoule Mask</a></h4>
     <h5>€4.99</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>Tony Moly</h4>
     <img src="assets/products/masks/mask_6.png" alt="I'm Real Sheet Masks  img">
     <h4><a href="">I'm Real Sheet Masks</a></h4>
     <h5>€1.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>Leaders</h4>
     <img src="assets/products/masks/mask_7.png" alt="Insolution AC Clear Treatment Mask img">
     <h4><a href="">Insolution AC Clear Treatment Mask</a></h4>
     <h5>€3.75</h5>
     </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>Benton</h4>
     <img src="assets/products/masks/mask_8.png" alt="Snail Bee High Content Mask Pack img">
    <h4> <a href="">Snail Bee High Content Mask Pack</a></h4>
     <h5>€6.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>Etude House</h4>
     <img src="assets/products/masks/mask_9.png" alt="0.2mm Therapy Air Mask img">
    <h4> <a href="">0.2mm Therapy Air Mask</a></h4>
     <h5>€2.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>Skinfood</h4>
     <img src="assets/products/masks/mask_10.png" alt="Black Sugar Wash Off Mask img">
    <h4> <a href="">Black Sugar Wash Off Mask</a></h4>
@@ -211,6 +215,12 @@
 </footer>
 
 <!--FINALIZA FOOTER -->
+
+    <!--AOS JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 </html>

@@ -6,6 +6,9 @@
     <title> Shop Cleansers </title>
     <!--CSS-->
     <link rel="stylesheet" href="styles/styles.css">
+    <!--AOS CSS-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     
@@ -68,14 +71,14 @@
 
 <!--INICIA MAIN-->
 <main>
-    <div class="imgcontainer">
+    <div class="imgcontainer" data-aos="fade-right" data-aos-duration="2000">
           <div class="h1tittle">
             <h1>
                 Why is it important to use a good moisturizer?
            </h1> 
           </div>
          
-          <div class="productsimg">
+          <div class="productsimg" data-aos="flip-left" data-aos-duration="2000">
                <a href=""><img src="assets/moisturizers-portada.png" alt="korean moisturizers"></a>
            </div>
     
@@ -87,16 +90,16 @@
     </div>
 
    <section>
-    <div class="bestsellers">
+    <div class="bestsellers" data-aos="fade-up"data-aos-duration="1000">
         <h2>Shop Now
         </h2>
     </div>
-    <div class="viewall">
+    <div class="viewall" data-aos="fade-up"data-aos-duration="1000">
         <a href="">View All</a>
     </div>
  </section>
   <hr>
- <section class="products-container">
+ <section class="products-container" data-aos="fade-right">
     <div class="product">
         <h4>Laneige</h4>
         <img src="assets/products/moisturizers/moisturizer_1.png" alt="bank cream cream img">
@@ -104,63 +107,63 @@
         <h5>€11.75</h5>
        </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-right">
     <h4>Innisfree</h4>
     <img src="assets/products/moisturizers/moisturizer_2.png" alt="Green tea cream img">
     <h4><a href="">Green Tea Balancing Cream</a></h4>
     <h5>€14.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-right">
     <h4>Dear, Klairs</h4>
     <img src="assets/products/moisturizers/moisturizer_3.png" alt="moist cream img">
     <h4><a href="">Rich Moist Soothing Cream</a></h4>
     <h5>€17.75</h5>
     </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-right">
     <h4>Cosrx</h4>
     <img src="assets/products/moisturizers/moisturizer_4.png" alt="snail cream img">
    <h4> <a href="">Advanced Snail 92 All in One Cream</a></h4>
     <h5>€12.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-right">
     <h4>Etude House</h4>
     <img src="assets/products/moisturizers/moisturizer_5.png" alt="Moistfull cream img">
     <h4><a href="">Moistfull Collagen Cream</a></h4>
     <h5>€14.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>Nature Republic</h4>
     <img src="assets/products/moisturizers/moisturizer_6.png" alt="super aqua watery cream img">
     <h4><a href="">Super Aqua Max Combination Watery Cream</a></h4>
     <h5>€11.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>Mamonde</h4>
     <img src="assets/products/moisturizers/moisturizer_7.png" alt="Rose cream img">
     <h4><a href="">Rose Water Soothing Gel Cream</a></h4>
     <h5>€13.75</h5>
     </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>Neogen</h4>
     <img src="assets/products/moisturizers/moisturizer_8.png" alt="surmedic cream img">
    <h4> <a href="">Surmedic Azulene Soothing Cream</a></h4>
     <h5>€11.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>belif</h4>
     <img src="assets/products/moisturizers/moisturizer_9.png" alt="aqua bomb cream">
    <h4> <a href="">The True Cream Aqua Bomb</a></h4>
     <h5>€15.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>Missha</h4>
     <img src="assets/products/moisturizers/moisturizer_10.png" alt="Cleansing Foam">
    <h4> <a href="">Super Aqua Cell Renew Snail Cream</a></h4>
@@ -211,6 +214,12 @@
 </footer>
 
 <!--FINALIZA FOOTER -->
+
+    <!--AOS JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 </html>

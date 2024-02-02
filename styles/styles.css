@@ -53,6 +53,11 @@ hr {
 
 .list-item {
     margin: 0;
+    transition: 1s;
+}
+
+.list-item:hover{
+    transform: scale(1.2);
 }
 
 
@@ -105,6 +110,7 @@ height: 30px;
     flex-direction: row;
     list-style: none;
     gap: 24px;
+
 }
 
 .list-item-benefits h3 {

@@ -6,6 +6,9 @@
     <title> Shop Cleansers </title>
     <!--CSS-->
     <link rel="stylesheet" href="styles/styles.css">
+
+    <!--AOS CSS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">   
 </head>
 <body>
     
@@ -69,13 +72,13 @@
 <!--INICIA MAIN-->
 <main>
     <div class="imgcontainer">
-          <div class="h1tittle">
+          <div class="h1tittle" data-aos="fade-right" data-aos-duration="2000">
             <h1>
                 What is a Cleanser?
            </h1> 
           </div>
          
-          <div class="productsimg">
+          <div class="productsimg" data-aos="flip-left" data-aos-duration="2000">
                <a href=""><img src="assets/cleansers-portada.png" alt=""></a>
            </div>
     
@@ -87,16 +90,16 @@
     </div>
 
    <section>
-    <div class="bestsellers">
+    <div class="bestsellers" data-aos="fade-up"data-aos-duration="1000">
         <h2>Shop Now
         </h2>
     </div>
-    <div class="viewall">
+    <div class="viewall" data-aos="fade-up"data-aos-duration="1000">
         <a href="">View All</a>
     </div>
  </section>
   <hr>
- <section class="products-container">
+ <section class="products-container" data-aos="fade-right">
     <div class="product">
     <h4>Banila Co</h4>
     <img src="assets/products/cleansers/cleansers_1.png" alt="Clean it zero img">
@@ -104,63 +107,63 @@
     <h5>€12.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-right">
     <h4>Heimish</h4>
     <img src="assets/products/cleansers/cleanser_2.png" alt="All clean balm img">
     <h4><a href="">All Clean Balm</a></h4>
     <h5>€14.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-right">
     <h4>Cosrx</h4>
     <img src="assets/products/cleansers/cleanser_3.png" alt="gel cleanser img">
     <h4><a href="">Low pH Good Morning Gel Cleanser</a></h4>
     <h5>€17.75</h5>
     </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-right">
     <h4>Dear, Klairs</h4>
     <img src="assets/products/cleansers/cleanser_4.png" alt="Cleansing oil img">
    <h4> <a href="">Gentle Black Deep Cleansing Oil</a></h4>
     <h5>€12.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product"data-aos="fade-right">
     <h4>Su:m37</h4>
     <img src="assets/products/cleansers/cleanser_5.png" alt="Miracle rose stick img">
     <h4><a href="">Miracle Rose Cleansing Stick</a></h4>
     <h5>€14.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>Neogen</h4>
     <img src="assets/products/cleansers/cleanser_6.png" alt="cleanser green tea img">
     <h4><a href="">Fresh Foam Green Tea Cleanser</a></h4>
     <h5>€11.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>Innisfree</h4>
     <img src="assets/products/cleansers/cleanser_7.png" alt="pore cleansing img">
     <h4><a href="">Jeju Volcanic Pore Cleansing Foam</a></h4>
     <h5>€13.75</h5>
     </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>Hada Labo</h4>
     <img src="assets/products/cleansers/cleanser_8.png" alt="Cleansing hyaluronic img">
    <h4> <a href="">Hyaluronic Acid Cleansing Foam</a></h4>
     <h5>€11.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>Etude House</h4>
     <img src="assets/products/cleansers/cleanser_9.png" alt="Cleansing whip img">
    <h4> <a href="">SoonJung pH 6.5 Whip Cleanser</a></h4>
     <h5>€15.75</h5>
    </div>
 
-   <div class="product">
+   <div class="product" data-aos="fade-left">
     <h4>Laneige</h4>
     <img src="assets/products/cleansers/cleanser_10.png" alt="Cleansing deep img">
    <h4> <a href="">Multi Deep-Clean Cleanser</a></h4>
@@ -211,6 +214,12 @@
 </footer>
 
 <!--FINALIZA FOOTER -->
+
+<!--AOS JS-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 
 </body>
 </html>
